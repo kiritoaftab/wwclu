@@ -356,7 +356,7 @@
     </header>
 
     <!-- Breadcrumb-wrapper Start -->
-    <section class="breadcrumb-wrapper courses-page-banner">
+    <section class="breadcrumb-wrapper shop-page-banner">
       <div class="shape-1">
         <img src="assets/img/breadcrumb/shape-1.png" alt="img" />
       </div>
@@ -375,255 +375,250 @@
       <div class="container">
         <div class="row">
           <div class="page-heading">
-            <h1>All Courses</h1>
+            <h1>Admissions</h1>
             <ul class="breadcrumb-items">
               <li><a href="index.html">Home</a></li>
-              <li class="style-2">Courses</li>
+              <li class="style-2">Admissions</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Popular Courses Section Start -->
-    <section class="popular-courses-section fix section-padding">
+    <!-- Register Section Start -->
+    <section class="sign-in-section section-padding fix">
       <div class="container">
-        <div class="row">
-          <!-- Doctor Program -->
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="courses-card-main-items">
-              <div class="courses-card-items style-2">
-                <div class="courses-image">
-                  <img
-                    src="assets/img/courses/doctor_of_chrisitan_learship.png"
-                    alt="Doctor of Strategic Christian Leadership"
-                  />
-                  <h3 class="courses-title" style="color: black">Doctorate</h3>
-                  <h4 class="topic-title" style="color: black">
-                    Strategic Christian Leadership
-                  </h4>
-                  <div class="arrow-items">
-                    <div class="GlidingArrow">
-                      <img src="assets/img/courses/a1.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay1">
-                      <img src="assets/img/courses/a2.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay2">
-                      <img src="assets/img/courses/a3.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay3">
-                      <img src="assets/img/courses/a4.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay4">
-                      <img src="assets/img/courses/a5.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay5">
-                      <img src="assets/img/courses/a6.png" alt="img" />
-                    </div>
-                  </div>
-                </div>
-                <div class="courses-content">
-                  <ul class="post-cat">
-                    <li>
-                      <a href="doctor-of-strategic-christian-leadership.html"
-                        >Doctor of Leadership</a
-                      >
-                    </li>
-                    <li>
-                      <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </li>
-                  </ul>
-                  <h3>
-                    <a href="doctor-of-strategic-christian-leadership.html">
-                      Doctor of Strategic Christian Leadership (51 semester
-                      hours)
-                    </a>
-                  </h3>
-                  <div class="client-items">
-                    <div
-                      class="client-img bg-cover"
-                      style="
-                        background-image: url('assets/img/courses/client-doctor.png');
-                      "
-                    ></div>
-                    <p>WCLU Faculty</p>
-                  </div>
-                  <ul class="post-class">
-                    <li><i class="far fa-books"></i> Core & Electives</li>
-                    <li><i class="far fa-user"></i> Global Leaders</li>
-                    <li>
-                      <a
-                        href="doctor-of-strategic-christian-leadership.html"
-                        class="theme-btn"
-                        >Learn More</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <div class="sign-in-items">
+              <div class="title text-center">
+                <h2>Course Registration Form</h2>
               </div>
-            </div>
-          </div>
 
-          <!-- Master Program -->
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="courses-card-main-items">
-              <div class="courses-card-items style-2">
-                <div class="courses-image">
-                  <img
-                    src="assets/img/courses/master_of_leadership.png"
-                    alt="Master in Christian Leadership"
-                  />
-                  <h3 class="courses-title" style="color: black">Master’s</h3>
-                  <h4 class="topic-title" style="color: white">
-                    Christian Leadership
-                  </h4>
-                  <div class="arrow-items">
-                    <div class="GlidingArrow">
-                      <img src="assets/img/courses/a1.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay1">
-                      <img src="assets/img/courses/a2.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay2">
-                      <img src="assets/img/courses/a3.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay3">
-                      <img src="assets/img/courses/a4.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay4">
-                      <img src="assets/img/courses/a5.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay5">
-                      <img src="assets/img/courses/a6.png" alt="img" />
+              <form
+                action="register-course.php"
+                id="course-register-form"
+                method="POST"
+              >
+                <div class="row g-4">
+                  <!-- First Name -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>First Name *</span>
+                      <input
+                        type="text"
+                        name="first_name"
+                        placeholder="First Name"
+                        required
+                      />
                     </div>
                   </div>
-                </div>
-                <div class="courses-content">
-                  <ul class="post-cat">
-                    <li>
-                      <a
-                        href="master-in-christian-leadership-in-a-globalized-world.html"
-                        >Master Leadership</a
-                      >
-                    </li>
-                    <li>
-                      <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                      <i class="fas a-star"></i><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </li>
-                  </ul>
-                  <h3>
-                    <a
-                      href="master-in-christian-leadership-in-a-globalized-world.html"
+
+                  <!-- Middle Name -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Middle Name</span>
+                      <input
+                        type="text"
+                        name="middle_name"
+                        placeholder="Middle Name"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Last Name -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Last Name *</span>
+                      <input
+                        type="text"
+                        name="last_name"
+                        placeholder="Last Name"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Email -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Email *</span>
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Phone -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Phone *</span>
+                      <input
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone Number (numbers only)"
+                        pattern="[0-9]{10,}"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Student ID -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Student ID#</span>
+                      <input
+                        type="text"
+                        name="student_id"
+                        placeholder="(Only for Master/Doctor Level)"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Major Program -->
+                  <div class="col-lg-12">
+                    <div
+                      class="form-clt style-2"
+                      style="width: 100%; display: block"
                     >
-                      Master in Christian Leadership in a Globalized World (30
-                      semester hours)
-                    </a>
-                  </h3>
-                  <div class="client-items">
-                    <div
-                      class="client-img bg-cover"
-                      style="
-                        background-image: url('assets/img/courses/client-master.png');
-                      "
-                    ></div>
-                    <p>WCLU Faculty</p>
-                  </div>
-                  <ul class="post-class">
-                    <li><i class="far fa-books"></i> Core & Electives</li>
-                    <li><i class="far fa-user"></i> Global Leaders</li>
-                    <li>
-                      <a
-                        href="master-in-christian-leadership-in-a-globalized-world.html"
-                        class="theme-btn"
-                        >Learn More</a
+                      <span>Major Program *</span>
+                      <select
+                        name="major_program"
+                        required
+                        style="
+                          width: 200%;
+                          display: block;
+                          padding: 10px 12px;
+                          border: 1px solid #ccc;
+                          border-radius: 6px;
+                        "
                       >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+                        <option value="">Select an option</option>
+                        <option value="Bachelor of Theology">
+                          Bachelor of Theology
+                        </option>
+                        <option value="Master of Divinity">
+                          Master of Divinity
+                        </option>
+                        <option
+                          value="Doctor of Strategic Christian Leadership"
+                        >
+                          Doctor of Strategic Christian Leadership
+                        </option>
+                      </select>
+                    </div>
+                  </div>
 
-          <!-- Academic / Bachelor Programs -->
-          <div class="col-xl-4 col-lg-6 col-md-6">
-            <div class="courses-card-main-items">
-              <div class="courses-card-items style-2">
-                <div class="courses-image">
-                  <img
-                    src="assets/img/courses/learning_programmes.png"
-                    alt="Academic Programs"
-                  />
-                  <h3 class="courses-title" style="color: white">
-                    Undergraduate
-                  </h3>
-                  <h4 class="topic-title" style="color: white">
-                    Academic Programs
-                  </h4>
-                  <div class="arrow-items">
-                    <div class="GlidingArrow">
-                      <img src="assets/img/courses/a1.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay1">
-                      <img src="assets/img/courses/a2.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay2">
-                      <img src="assets/img/courses/a3.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay3">
-                      <img src="assets/img/courses/a4.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay4">
-                      <img src="assets/img/courses/a5.png" alt="img" />
-                    </div>
-                    <div class="GlidingArrow delay5">
-                      <img src="assets/img/courses/a6.png" alt="img" />
+                  <!-- Additional Program -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Additional Program</span>
+                      <select name="additional_program">
+                        <option value="">Select an option</option>
+                        <option value="Leadership Development">
+                          Leadership Development
+                        </option>
+                        <option value="Biblical Studies">
+                          Biblical Studies
+                        </option>
+                      </select>
                     </div>
                   </div>
-                </div>
-                <div class="courses-content">
-                  <ul class="post-cat">
-                    <li><a href="academic-programs.html">Academic</a></li>
-                    <li>
-                      <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </li>
-                  </ul>
-                  <h3>
-                    <a href="academic-programs.html">
-                      Academic Programs: Bachelor in Christian Studies /
-                      Ministry (80 semester hours)
-                    </a>
-                  </h3>
-                  <div class="client-items">
-                    <div
-                      class="client-img bg-cover"
-                      style="
-                        background-image: url('assets/img/courses/client-academic.png');
-                      "
-                    ></div>
-                    <p>WCLU Faculty</p>
+
+                  <!-- Semester -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Semester *</span>
+                      <select name="semester" required>
+                        <option value="">Select an option</option>
+                        <option value="Spring 2026">Spring 2026</option>
+                        <option value="Summer 2026">Summer 2026</option>
+                        <option value="Fall 2026">Fall 2026</option>
+                      </select>
+                    </div>
                   </div>
-                  <ul class="post-class">
-                    <li><i class="far fa-books"></i> Core & Electives</li>
-                    <li><i class="far fa-user"></i> Aspiring Leaders</li>
-                    <li>
-                      <a href="academic-programs.html" class="theme-btn"
-                        >Learn More</a
+
+                  <!-- Expected Graduation Date -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Expected Graduation Date</span>
+                      <input type="date" name="graduation_date" />
+                    </div>
+                  </div>
+
+                  <!-- Total Semester Hours -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Total Semester Hours</span>
+                      <input
+                        type="number"
+                        name="total_hours"
+                        placeholder="e.g. 120"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Hours for This Semester -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Hours for This Semester</span>
+                      <input
+                        type="number"
+                        name="semester_hours"
+                        placeholder="e.g. 15"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Agreement -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Agreement *</span>
+                      <textarea readonly style="font-size: 13px; height: 120px">
+I UNDERSTAND THAT THIS RECOMMENDED SCHEDULE WILL KEEP ME ON TRACK TOWARDS MEETING THE DEGREE REQUIREMENTS FOR MY PROGRAM OF STUDY. I ALSO UNDERSTAND THAT MY FAILURE TO REGISTER FOR THESE COURSES MAY RESULT IN DELAYED GRADUATION OR THE NEED TO REGISTER FOR SOME OR ALL OF THESE COURSES AT A LATER TIME. I AGREE TO THE TERMS OF USE AND POLICIES OF WWCLU AND THE WWCLU WEBSITE.
+                  </textarea
                       >
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
+
+                  <!-- Signature -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Signature (type full name) *</span>
+                      <input
+                        type="text"
+                        name="signature"
+                        placeholder="Your Full Name"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Agreement Date -->
+                  <div class="col-lg-12">
+                    <div class="form-clt style-2">
+                      <span>Agreement Date *</span>
+                      <input type="date" name="agreement_date" required />
+                    </div>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="col-lg-12 text-center">
+                    <button type="submit" class="theme-btn">
+                      Submit Registration
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Register Section End -->
 
     <!-- Marquee Section Start -->
     <div class="marquee-section">
@@ -631,13 +626,9 @@
         <div class="scrolling-wrap">
           <div class="comm">
             <div></div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> World Wide
-              Christian Leadership University
-            </div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> Empowering
-              Christian Leaders Globally
+            <div class="cmn-textslide text-color-2">
+              <i class="flaticon-mortarboard"></i> Empowering Christian Leaders
+              Globally
             </div>
             <div class="cmn-textslide text-color-2">
               <i class="flaticon-mortarboard"></i> Accredited Leadership
@@ -661,13 +652,9 @@
           </div>
           <div class="comm">
             <div></div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> World Wide
-              Christian Leadership University
-            </div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> Empowering
-              Christian Leaders Globally
+            <div class="cmn-textslide text-color-2">
+              <i class="flaticon-mortarboard"></i> Empowering Christian Leaders
+              Globally
             </div>
             <div class="cmn-textslide text-color-2">
               <i class="flaticon-mortarboard"></i> Accredited Leadership
@@ -691,13 +678,9 @@
           </div>
           <div class="comm">
             <div></div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> World Wide
-              Christian Leadership University
-            </div>
-            <div class="cmn-textslide">
-              <i class="flaticon-mortarboard text-color-2"></i> Empowering
-              Christian Leaders Globally
+            <div class="cmn-textslide text-color-2">
+              <i class="flaticon-mortarboard"></i> Empowering Christian Leaders
+              Globally
             </div>
             <div class="cmn-textslide text-color-2">
               <i class="flaticon-mortarboard"></i> Accredited Leadership
